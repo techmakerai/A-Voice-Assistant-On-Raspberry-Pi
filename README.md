@@ -5,7 +5,7 @@ A voice assistant (chatbot) built with Raspberry Pi, Python and OpenAI ChatGPT A
 ## Materials 
 
 * Raspberry Pi
-* Spearker
+* Speaker
 * Microphone 
 
 
