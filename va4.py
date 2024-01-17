@@ -1,4 +1,5 @@
 # A Voice Chatbot built with Python and OpenAI's ChatGPT API
+# Tested and working on Raspberry Pi 4. 
 # By TechMakerAI on YouTube 
 # 
 from openai import OpenAI
@@ -41,7 +42,7 @@ def chatfun(talk):
     return talk
 
 # select to use OpenAI's text to speech API
-openaitts = True
+openaitts = False
 
 def speak_text(text):
     global openaitts    
@@ -114,7 +115,7 @@ def main():
     while True:     
         
         with mic as source1:            
-            rec.adjust_for_ambient_noise(source1, duration= 1)
+            rec.adjust_for_ambient_noise(source1, duration= 0.5)
 
             print("Listening ...")
             
@@ -128,10 +129,17 @@ def main():
                     # This word can be chagned. 
                     if "jack" in text.lower():
                         request = text.lower().split("jack")[1]
+                        
                         sleeping = False
                         # AI is awake now, start a new conversation 
                         talk = []                        
-                        today = str(date.today())                        
+                        today = str(date.today()) 
+                        
+                        # if the user's question is none or too short, skip 
+                        if len(request) < 5:
+                            speak_text("Hi, there, how can I help?")
+                            continue                      
+
 
                     else:
                         continue
@@ -151,7 +159,11 @@ def main():
                         sleeping = True
                         # AI goes back to speeling mode
                         continue
-                        
+                    
+                    if "jack" in request:
+                        request = request.split("jack")[1]                        
+                
+
                 append2log(f"You: {request}\n")
 
                 print(f"You: {request}\n")
@@ -169,6 +181,10 @@ def main():
  
 if __name__ == "__main__":
     main()
+
+    
+
+
 
     
 
