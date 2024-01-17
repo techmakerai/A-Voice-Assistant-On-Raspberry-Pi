@@ -1,4 +1,4 @@
-# A Voice Assistant (Chatbot) built with Raspberry Pi
+# A Voice Assistant (Chatbot) on Raspberry Pi
 
 A voice assistant (chatbot) built with Raspberry Pi, Python and OpenAI ChatGPT API
 
