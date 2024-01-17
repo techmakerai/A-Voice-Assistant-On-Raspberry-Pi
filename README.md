@@ -10,5 +10,5 @@ A voice assistant (chatbot) built with Raspberry Pi, Python and OpenAI ChatGPT A
 
 ## Set System Environment Variables 
 
-OPENAI_API_KEY=(API key from OpenAI website)
+OPENAI_API_KEY=(API key from OpenAI website)   
 PYGAME_HIDE_SUPPORT_PROMPT=hide
