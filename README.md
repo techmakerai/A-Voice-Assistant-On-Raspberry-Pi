@@ -9,7 +9,7 @@ Following the YouTube video here to learn more about this code:
 
 * Raspberry Pi
 * Speaker
-* Microphone 
+* Microphone (https://www.microcenter.com/product/613575/adafruit-industries-mini-usb-microphone-black)
 
 ## Set System Environment Variables 
 
