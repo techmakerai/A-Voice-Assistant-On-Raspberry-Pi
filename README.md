@@ -18,9 +18,11 @@ PYGAME_HIDE_SUPPORT_PROMPT=hide
 
 ## Install Python and Packages 
 You will need to install the following packages to run this code: 
-
 ```console
-$ pip install speechrecognition openai pyttsx3 pyaudio pygame
+pip install speechrecognition openai pyttsx3 pyaudio pygame
 ```
 
-
+If you have Python 3.12 or newer, also install the "setuptools" package,    
+```console
+pip install setuptools
+```
