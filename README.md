@@ -34,6 +34,6 @@ After this, it will be activated. Also, it will be activated automatically at th
 If you would rather want your API key to be accessible only for a specific project, then you can follow the instructions here,  
 https://platform.openai.com/docs/quickstart 
 
-* As a participant in the Amazon Associate Program, we earn from qualifying purchases.
+*** As a participant in the Amazon Associate Program, we earn from qualifying purchases.
 
 
