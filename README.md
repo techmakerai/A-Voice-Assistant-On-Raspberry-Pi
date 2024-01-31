@@ -29,6 +29,7 @@ Note that there is no space before and after "=". Then, re-load your new bash pr
 ```console
 source ~/.bashrc 
 ```
+After this, it will be activated, and it will be activated automatically at the startup of your Raspberry Pi. So you only need to set up this once.   
 
 
 
