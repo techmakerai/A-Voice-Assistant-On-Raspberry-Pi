@@ -5,24 +5,32 @@ A voice assistant (chatbot) built with Raspberry Pi, Python, and OpenAI ChatGPT 
 Following the YouTube video here to learn more about this code:    
 [https://youtu.be/nHpJaE559r4](https://youtu.be/nHpJaE559r4)
 
-## Materials 
-
+## Materials    
 * Raspberry Pi
 * Speaker
 * Microphone (https://www.microcenter.com/product/613575/adafruit-industries-mini-usb-microphone-black)
 
-## Set System Environment Variables 
-
-OPENAI_API_KEY=(API key from OpenAI website)   
-PYGAME_HIDE_SUPPORT_PROMPT=hide
-
-## Install Python and Packages 
+## Install Python and Packages    
 You will need to install the following packages to run this code: 
 ```console
 pip install speechrecognition openai pyttsx3 pyaudio pygame
 ```
-
 If you have Python 3.12 or newer, also install the "setuptools" package,    
 ```console
 pip install setuptools
 ```
+## Setup System Environment Variables    
+First, edit the bash profile at "~/.bashrc" with a text editor and add the following environment variables:
+```console
+export OPENAI_API_KEY='your-api-key-here'   
+export PYGAME_HIDE_SUPPORT_PROMPT=hide
+```
+Note that there is no space before and after "=". Then, re-load your new bash profile to activate it,        
+```console
+source ~/.bashrc 
+```
+
+
+
+
+
