@@ -6,9 +6,9 @@ Following the YouTube video here to learn more about this code:
 [https://youtu.be/nHpJaE559r4](https://youtu.be/nHpJaE559r4)
 
 ## Materials    
-* Raspberry Pi (https://amzn.to/4bmstJa) *
+* Raspberry Pi (https://amzn.to/4bmstJa) \*
 * Speaker
-* Microphone  (https://amzn.to/3HGGSCA)   
+* Microphone  (https://amzn.to/3HGGSCA) \*  
 
 ## Install Python and Packages    
 You will need to install the following packages to run this code: 
@@ -34,6 +34,6 @@ After this, it will be activated. Also, it will be activated automatically at th
 If you would rather want your API key to be accessible only for a specific project, then you can follow the instructions here,  
 https://platform.openai.com/docs/quickstart 
 
-*** As a participant in the Amazon Associate Program, we earn from qualifying purchases.
+\* As a participant in the Amazon Associate Program, we earn from qualifying purchases.
 
 
