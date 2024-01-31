@@ -6,9 +6,9 @@ Following the YouTube video here to learn more about this code:
 [https://youtu.be/nHpJaE559r4](https://youtu.be/nHpJaE559r4)
 
 ## Materials    
-* Raspberry Pi
+* Raspberry Pi (https://amzn.to/4bmstJa)
 * Speaker
-* Microphone (https://www.microcenter.com/product/613575/adafruit-industries-mini-usb-microphone-black)
+* Microphone  (https://amzn.to/3HGGSCA)   
 
 ## Install Python and Packages    
 You will need to install the following packages to run this code: 
