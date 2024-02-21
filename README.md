@@ -31,8 +31,10 @@ source ~/.bashrc
 ```
 After this, it will be activated. Also, it will be activated automatically at the startup of your Raspberry Pi in the future. So you only need to set up this once.  
 
-If you would rather want your API key to be accessible only for a specific project, then you can follow the instructions here,  
-https://platform.openai.com/docs/quickstart 
+If you would rather want to use your API key in the Python program, then add it to the definition of the variable "client" as, 
+```python
+client = OpenAI(api_key="this is your API key")
+```
 
 \* As a participant in the Amazon Associate Program, we earn from qualifying purchases.
 
