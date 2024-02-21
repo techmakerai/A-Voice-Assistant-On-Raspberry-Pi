@@ -16,7 +16,10 @@ import pygame
 
 pygame.mixer.init()
 
+# I added my API key as a system environment variable. 
 client = OpenAI()
+# If you rather want to use your API key in this program, then change the above line to, 
+# client = OpenAI(api_key="this is your API key")
 
 today = str(date.today())
 
